@@ -1,7 +1,10 @@
+######Note: This homework is the same as M101J and M101P
+
 #####Homework 4.1
 
 ```javascript
 db.products.find({'brand':"GE"}).sort({price:1})
+
 db.products.find({$and:[{price:{$gt:30}},{price:{$lt:50}}]}).sort({brand:1})
 ```
 
@@ -9,7 +12,9 @@ db.products.find({$and:[{price:{$gt:30}},{price:{$lt:50}}]}).sort({brand:1})
 
 ```javascript
 "This query performs a collection scan."
+
 "The query uses an index to determine the order in which to return result documents."
+
 "The query visits 46462 documents."
 ```
 
