@@ -1,7 +1,11 @@
+######Note: This homework is the same as M101J and M101P
+
+
 #####Homework 6.1
 
 ```javascript
 "The minimum sensible number of voting nodes to a replica set is three."
+
 "The oplog utilizes a capped collection."
 ```
 
@@ -15,7 +19,9 @@ w="majority", j=1
 
 ```javascript
 "There must be a index on the collection that starts with the shard key."
+
 "Mongo can not enforce unique indexes on a sharded collection other than the shard key."
+
 "Any update that does not contain the shard key will be sent to all shards."
 ```
 
