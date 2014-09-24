@@ -57,7 +57,7 @@ db.messages.update({"headers.Message-ID":"<8147308.1075851042335.JavaMail.evans@
 
 #####Question 7
 
-###### Same question but different answer as M101J as MongoDB University changed the data
+###### Same question but different answer to M101J as MongoDB University changed the data
 
 ```javascript
 44,822
