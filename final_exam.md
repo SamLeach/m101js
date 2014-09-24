@@ -20,9 +20,9 @@
 
 #####Question 3
 
-```javascript
-
 ###### Same question and answer as M101J except mrpotatohead@10gen.com is changed to mrpotatohead@mongodb.com
+
+```javascript
 
 "vOnRg05kwcqyEFSve96R"
 
